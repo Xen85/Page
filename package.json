@@ -1,0 +1,19 @@
+{
+  "name": "Page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xen85/Page.git"
+  },
+  "author": "fabio roscioli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xen85/Page/issues"
+  },
+  "homepage": "https://github.com/Xen85/Page"
+}
