@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Xen85/Page/issues"
   },
-  "homepage": "https://github.com/Xen85/Page"
+  "homepage": "https://github.com/Xen85/Page",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
