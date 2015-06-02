@@ -1,10 +1,9 @@
-var gulp = require('gulp'),
-  connect = require('gulp-connect');
+var gulp = require('gulp'), connect = require('gulp-connect');
  
  var server;
 	gulp.task('connect', function() {
 	  server = connect.server({
-	    root: 'app',
+	    root: './',
 	    livereload: true,
 	    port: 9987
 	  });
@@ -19,6 +18,5 @@ gulp.task('html', function () {
 gulp.task('watch', function () {
   gulp.watch(['./*.html'], ['html']);
 });
- 
-gulp.task('default', ['connect', 'watch']);
+
 
