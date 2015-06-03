@@ -1,0 +1,39 @@
+come primo task
+[18:56:27] Maurizio: crea 1 file
+[18:56:37] Maurizio: src/js/app.js
+[18:56:59] Maurizio: 1 po' di convenzioni e di background
+[18:57:14] Maurizio: installa 1 plugin per jshint su sublime
+[18:57:22] Maurizio: usa sempre le single quote
+[18:57:24] Maurizio: ''
+[18:57:27] Maurizio: non  ""
+[18:57:32 | Modificato 18:57:34] Maurizio: per le stringhe
+[18:57:55] Maurizio: usa 2 spazi di indent invece dei tab
+[18:57:58] Maurizio: e
+[18:58:04] Maurizio: wrappa sempre i file in
+[18:58:21] Maurizio: (function(){
+  'use strict';
+
+  
+}());
+[18:58:39] Maurizio: (function(){
+  'use strict';
+
+  
+  console.log('hello!');
+
+}());
+[18:58:56] Maurizio: non usare le variabili globali
+[18:59:12] Maurizio: specie con angular
+[18:59:53] Maurizio: niente window.app = angular.module()
+[19:00:11] Maurizio: var app = angular.module('fabio-app', []);
+[19:00:32] Maurizio: nelle dipendenze di angular
+[19:00:39] Maurizio: usa sempre SEMPRE
+[19:00:44] Maurizio: la forma con l'array
+[19:00:46] Maurizio: così
+[19:01:06] Maurizio: app.controller('MainController', [ '$scope', function($scope){  }]);
+[19:01:10] Maurizio: e NON così
+[19:01:18] Maurizio: app.controller('MainController', function($scope){  });
+[19:01:38] Maurizio: la ragione è che il secondo modo non funziona con i compressori
+[19:01:50] Maurizio: ok
+[19:01:53] Maurizio: il primo task
+[19:02:14] Maurizio: è riempire la lista delle deals con ng-repeat
