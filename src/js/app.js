@@ -1,5 +1,5 @@
 angular.module('todoApp', [])
-    .controller('mainController', [ '$scope', function($scope){
+    .controller('mainController', ['$scope', function ($scope) {
         var todoList = this;
 
         todoList.deals = [
@@ -86,7 +86,36 @@ angular.module('todoApp', [])
                     "latitude": -3.136937,
                     "longitude": 113.93814
                 }
+            },
+            {
+                "id": "311ea174-f985-4d17-bc67-f3d3348499de",
+                "image": "http://lorempixel.com/400/300/food/7/",
+                "price": 30.3022,
+                "title": "Super Deal",
+                "place": {
+                    "id": "28df9241-9408-4011-ab86-8e9786ec502b",
+                    "name": "Place 6",
+                    "address": "12th Ave NY",
+                    "zipcode": 14989,
+                    "latitude": -3.136937,
+                    "longitude": 113.93814
+                }
+            },
+            {
+                "id": "311ea174-f985-4d17-bc67-f3d3348499de",
+                "image": "http://lorempixel.com/400/300/food/7/",
+                "price": 30.3022,
+                "title": "Super Deal",
+                "place": {
+                    "id": "28df9241-9408-4011-ab86-8e9786ec502b",
+                    "name": "Place 6",
+                    "address": "12th Ave NY",
+                    "zipcode": 14989,
+                    "latitude": -3.136937,
+                    "longitude": 113.93814
+                }
             }
+
         ];
 
 
