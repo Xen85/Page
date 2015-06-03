@@ -20,3 +20,15 @@ gulp.task('watch', function () {
 });
 
 
+var paths = {
+ scripts: ['js/*.js'],
+ styles: ['css/*.css'],
+ html: ['index.html'], 
+  dist: ['build/']
+};
+ 
+gulp.task('build', function(){
+ gulp.src(paths.scripts.concat(paths.html, paths.styles))
+ .pipe(gulp.dest(paths.dist));
+});
+
