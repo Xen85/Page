@@ -1,0 +1,1 @@
+{"/home/xen/progetto_americano/gulpfile.js":{"sha1":"99328b9d5fbd77ef49c2889ed6f383784d0cbde0","tasks":{"connect":{"name":"connect","dependencies":""},"html":{"name":"html","dependencies":""},"watch":{"name":"watch","dependencies":""},"build":{"name":"build","dependencies":""},"default":{"name":"default","dependencies":""}}}}
