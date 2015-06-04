@@ -33,25 +33,23 @@
     margin-left: auto;
     margin-right: 0px;
     display: table-cell;
-    width: 50%;
     text-align: right;
     font-size: smaller;
-    
 }
 
 .floatLeft {
     /*float: left;*/
     display: table-cell;
     vertical-align: middle;
-    width: 80%;
+    width: 100%;
+    text-align: left;
     font-size: smaller;
 }
 .fixedfloat {
     float: none;
     display: table; 
     vertical-align: middle;
- 
-    padding: 5px;
+   padding: 5px;
     
 }
 .floatLeft h4 {
