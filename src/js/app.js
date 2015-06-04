@@ -1,8 +1,8 @@
-angular.module('todoApp', [])
+angular.module('program', [])
     .controller('mainController', ['$scope', function ($scope) {
-        var todoList = this;
+        var controller = this;
 
-        todoList.deals = [
+        controller.deals = [
             {
                 "id": "75b1e387-1a4d-4f67-9b8b-6ad8cebfe808",
                 "image": "http://lorempixel.com/400/300/food/8/",

@@ -1,17 +1,18 @@
 
-.padding-row {
- 
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.margin-inner-row {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.margin-image {
-    padding: 20px;
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), 
+       local('Roboto-Regular'), 
+       url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) 
+       format('woff');
 }
 
+.padding-row {
+
+   padding-bottom: 20px;
+}
 
 .fixedSize {
     width: 100%;
@@ -27,23 +28,41 @@
 }
 
 .floatRight {
-    float: right;
+    /*float: right;*/
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: 0px;
+    display: table-cell;
+    width: 50%;
+    text-align: right;
+    font-size: smaller;
     
 }
 
 .floatLeft {
-    float: left;
+    /*float: left;*/
+    display: table-cell;
+    vertical-align: middle;
+    width: 80%;
+    font-size: smaller;
 }
 .fixedfloat {
     float: none;
-    display: inline-block; 
+    display: table; 
+    vertical-align: middle;
+ 
+    padding: 5px;
+    
+}
+.floatLeft h4 {
+    font-size: small;
 }
 
-.margin-div {
-    margin-top: 20px;
-    margin-left: 20px;
+.floatLeft p {
+   font-weight: bold;
+    font-style: italic;
+    font-size: small;
 }
-
 .wide {
     max-width: 100%;
     max-height: 100%;
@@ -51,4 +70,18 @@
     width: 100%;
     white-space: nowrap;
    
+}
+
+.fontRoboto {
+    font-family: Roboto;
+}
+
+.trasformUppercase {
+    text-transform: uppercase;
+}
+
+.boxshadowing {
+    -webkit-box-shadow: 0 4px 2px -2px gray;
+    -ms-box-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 4px 2px -2px gray;
 }
