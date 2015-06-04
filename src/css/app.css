@@ -56,7 +56,7 @@
     font-size: small;
 }
 
-.floatLeft p {
+.place {
    font-weight: bold;
     font-style: italic;
     font-size: small;
@@ -72,6 +72,11 @@
 
 .fontRoboto {
     font-family: Roboto;
+}
+.trasformlowercase {
+    text-transform: lowercase;
+    text-decoration: solid;
+    font-size: xx-small;
 }
 
 .trasformUppercase {

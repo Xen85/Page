@@ -11,16 +11,17 @@
 
 </head>
 <body>
-    
+
     
     <div class="container body-content fontRoboto">
 
-        <div class=" col-md-12 trasformUppercase page-header boxshadowing">
+        <section class="container trasformUppercase page-header boxshadowing">
             <h2>
                 Deals
 
             </h2>
-        </div>
+
+        </section>
 
 
         <div class="col-md-12 col-lg-12">
@@ -44,8 +45,12 @@
                             </div>
                             <div class="fixedfloat">
                                 <div class="floatLeft fontRoboto">
-                                    <h4>{{deal.title}}</h4>
-                                    <p>{{deal.place.name}}</p>
+                                    <div>
+                                        <span>{{deal.title}}</span>
+                                    </div>
+                                    <div>
+                                        <span class="trasformlowercase place">{{deal.place.name}}</span>
+                                    </div>
                                 </div>
                                 <div class="floatRight fontRoboto">
                                     
